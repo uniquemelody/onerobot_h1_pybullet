@@ -72,6 +72,17 @@ def _export_model(key: str, output_root: Path) -> dict[str, object]:
     (model_directory / "metadata.json").write_text(
         json.dumps(metadata, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
+    shutil.copy2(PROJECT_ROOT / "LICENSES" / "CC-BY-4.0.txt", model_directory / "LICENSE.txt")
+    (model_directory / "README.md").write_text(
+        f"# {spec.display_name}\n\n"
+        "OneRobotics A1 robot assets © 2026 OneRobotics, licensed under "
+        "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).\n\n"
+        "Source: <https://github.com/katazen/onerobot_h1> at commit "
+        "`ecf530911284ba0e559f7a24dc222fd8e60d31ed`.\n\n"
+        "Changes: removed the unused top-level MuJoCo compiler element and packaged "
+        "the referenced meshes beside `model.urdf`; physical model fields are unchanged.\n",
+        encoding="utf-8",
+    )
 
     files = {
         path.relative_to(model_directory).as_posix(): _sha256(path)
@@ -100,4 +111,3 @@ def export_all(output_root: Path | None = None) -> Path:
         json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
     return destination
-

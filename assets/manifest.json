@@ -3,6 +3,8 @@
     "bimanual": {
       "asset_directory": "onerobotics_a1_bimanual_stand",
       "files": {
+        "LICENSE.txt": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "README.md": "06d0d878fa7db6f2c9207864ac5d5f7d473b7baf1dd03ae79a5c8a59412229e4",
         "meshes/Link_l0.STL": "7500d6bdfbbf3f7614ee750131d30527adf6b15d6fca8ccc0da297af0e9411fa",
         "meshes/Link_l1.STL": "e46d1540441ece5c1b98de4dd91778f4a19278f736e3b0a83698cca1616861b6",
         "meshes/Link_l2.STL": "6e98b5242edcd3b403b28569de4d29f1ee42d9903cfffc0f7f47459c34117d95",
@@ -28,6 +30,8 @@
     "left": {
       "asset_directory": "onerobotics_a1_left_arm",
       "files": {
+        "LICENSE.txt": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "README.md": "12787811232b0f1bab0671ed0680649130880f6a06a08e102c8c12cb2949ae29",
         "meshes/a1_l/Link1.STL": "5fd135103ba618588bbb3d1e3b248d74cc786c2cf6c9b209898cade92816093a",
         "meshes/a1_l/Link2.STL": "86d3d59094be3996e3e23f3aa3747a05306f126b3eaa722037cc625c81010294",
         "meshes/a1_l/Link3.STL": "a28d4d1a6c9f27438100d48cf7042dd1c42c4c5b730c04137854b9042b61adc2",
@@ -44,6 +48,8 @@
     "right": {
       "asset_directory": "onerobotics_a1_right_arm",
       "files": {
+        "LICENSE.txt": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+        "README.md": "f96f726ea9facda257c4f2acb4ca4857b67a7a5f8cc846bbe3ece5a1f726eced",
         "meshes/a1_r/Link1.STL": "d54268edba96a905bb4e0d39614233d822eb447ff5f2eedb2047d4308c1ecfa6",
         "meshes/a1_r/Link2.STL": "742ed9c8a22f857e9adf97fde3fb91ccfed97f99e6406b9777618c3f79d11441",
         "meshes/a1_r/Link3.STL": "a184d61f04bf25fcdf3b6982978562cfd74c61a25f3746b5863fd0961f613e71",

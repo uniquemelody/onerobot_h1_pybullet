@@ -72,6 +72,13 @@ def test_exported_urdf_is_portable_and_physically_unchanged(
     )
     root = ET.parse(urdf_path).getroot()
     assert root.find("mujoco") is None
+    assert (model_directory / "LICENSE.txt").is_file()
+    assert "Creative Commons Attribution 4.0" in (
+        model_directory / "LICENSE.txt"
+    ).read_text(encoding="utf-8")
+    assert "OneRobotics A1 robot assets" in (
+        model_directory / "README.md"
+    ).read_text(encoding="utf-8")
 
     meshes = [element.attrib["filename"] for element in root.findall(".//mesh")]
     assert len(set(meshes)) == mesh_count
@@ -80,4 +87,3 @@ def test_exported_urdf_is_portable_and_physically_unchanged(
         assert not relative.is_absolute()
         assert ".." not in relative.parts
         assert (model_directory / relative).is_file()
-
