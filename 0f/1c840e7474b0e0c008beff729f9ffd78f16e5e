@@ -1,0 +1,53 @@
+src/onerobotics_a1_pybullet/__init__.py
+  s_ef7452d333de59::t_d7d300ab60c98e 1-6
+src/onerobotics_a1_pybullet/export.py
+  s_ef7452d333de59::t_d7d300ab60c98e 1-103
+tests/test_export.py
+  s_ef7452d333de59::t_ad7efcc83a3394 1-83
+scripts/export_assets.py
+  s_ef7452d333de59::t_d7d300ab60c98e 1-6
+src/onerobotics_a1_pybullet/models.py
+  s_ef7452d333de59::t_d7d300ab60c98e 1-50
+assets/manifest.json
+  s_ef7452d333de59::t_3817eecfac83cc 1-64
+assets/onerobotics_a1_bimanual_stand/metadata.json
+  s_ef7452d333de59::t_984f50ae128e82 1-13
+assets/onerobotics_a1_bimanual_stand/model.urdf
+  s_ef7452d333de59::t_e5217a1c673207 1-487
+assets/onerobotics_a1_left_arm/metadata.json
+  s_ef7452d333de59::t_53a8da3607712e 1-13
+assets/onerobotics_a1_left_arm/model.urdf
+  s_ef7452d333de59::t_4ba951b245d353 1-241
+assets/onerobotics_a1_right_arm/metadata.json
+  s_ef7452d333de59::t_71ae7905276604 1-13
+assets/onerobotics_a1_right_arm/model.urdf
+  s_ef7452d333de59::t_3f5cd29ab3a8a8 1-232
+source/A1_2026/README.md
+  s_ef7452d333de59::t_d61c07bbbd2fd3 1-89
+source/A1_2026/SHA256SUMS
+  s_ef7452d333de59::t_9a110a15d7f88b 1-28
+source/A1_2026/a1_l.urdf
+  s_ef7452d333de59::t_b02e08030a70d0 1-473
+source/A1_2026/a1_r.urdf
+  s_ef7452d333de59::t_9272e9876062aa 1-235
+source/A1_2026/bimanual_stand/a1_bimanual_stand.urdf
+  s_ef7452d333de59::t_4156875128f8f2 1-968
+source/A1_2026/model_parameters.yaml
+  s_ef7452d333de59::t_a9140521f5dc2b 1-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0f1c840e7474b0e0c008beff729f9ffd78f16e5e",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
