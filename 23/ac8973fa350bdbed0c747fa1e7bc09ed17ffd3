@@ -1,0 +1,25 @@
+scripts/setup.sh
+  s_ef7452d333de59::t_c7ea6b0fd304b1 1-14
+src/onerobotics_a1_pybullet/demo.py
+  s_ef7452d333de59::t_c7ea6b0fd304b1 1-88
+tests/test_cli.py
+  s_ef7452d333de59::t_49aea76408c39d 1-61
+scripts/open_demo.sh
+  s_ef7452d333de59::t_c7ea6b0fd304b1 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "23ac8973fa350bdbed0c747fa1e7bc09ed17ffd3",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
