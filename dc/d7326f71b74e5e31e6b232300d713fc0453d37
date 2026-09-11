@@ -1,0 +1,35 @@
+tests/test_documentation.py
+  s_ef7452d333de59::t_775917670073db 31-33
+  s_ef7452d333de59::t_5436d628b2065d 1-30,34
+README.md
+  s_ef7452d333de59::t_0cc2125449d17b 3-4,6,8-61
+scripts/validate_all.sh
+  s_ef7452d333de59::t_0cc2125449d17b 1-20
+tests/test_cli.py
+  s_ef7452d333de59::t_5c3aaa01703b06 8,64,68-74
+  s_ef7452d333de59::t_51ed797ddb394a 65-67
+  s_ef7452d333de59::t_49aea76408c39d 9
+docs/PUBLISHING.md
+  s_ef7452d333de59::t_0cc2125449d17b 1-63
+src/onerobotics_a1_pybullet/demo.py
+  s_ef7452d333de59::t_8be92558df2f59 80-84
+VALIDATION.md
+  s_ef7452d333de59::t_fdc3e79f78b3a4 27,29-34
+  s_ef7452d333de59::t_0cc2125449d17b 1-26,28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "dcd7326f71b74e5e31e6b232300d713fc0453d37",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
