@@ -1,0 +1,21 @@
+docs/superpowers/specs/2026-09-11-pybullet-assets-design.md
+  s_ef7452d333de59::t_06a7f0f386ad5a 1-81
+docs/superpowers/plans/2026-09-11-pybullet-assets-plan.md
+  s_ef7452d333de59::t_06a7f0f386ad5a 1-72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "fc629e8aa3c41f82be814041eed3369173565dac",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
