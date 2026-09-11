@@ -1,0 +1,37 @@
+config/models.yaml
+  s_ef7452d333de59::t_8394b74656b0c6 1-52
+.gitignore
+  s_ef7452d333de59::t_8394b74656b0c6 1-7
+LICENSE
+  s_ef7452d333de59::t_8394b74656b0c6 1-30
+tests/test_repository.py
+  s_ef7452d333de59::t_aa39cfed4bcd6c 1-30
+pyproject.toml
+  s_ef7452d333de59::t_8394b74656b0c6 1-39
+README.md
+  s_ef7452d333de59::t_8394b74656b0c6 1-10
+ASSET_LICENSE_STATUS.md
+  s_ef7452d333de59::t_8394b74656b0c6 1-16
+THIRD_PARTY_NOTICES.md
+  s_ef7452d333de59::t_8394b74656b0c6 1-9
+LICENSES/CC-BY-4.0.txt
+  s_ef7452d333de59::t_eb375a9f908cc5 1-395
+uv.lock
+  s_ef7452d333de59::t_909ee5ac49f3df 1-143
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "bfbfc910c360cacc863640eadc6f53849f61128d",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
