@@ -77,7 +77,11 @@ def run_demo(model_key: str, *, gui: bool, steps: int) -> dict[str, object]:
 
 def main(argv: Sequence[str] | None = None) -> int:
     arguments = _parser().parse_args(argv)
-    summary = run_demo(arguments.model, gui=not arguments.direct, steps=arguments.steps)
+    try:
+        summary = run_demo(arguments.model, gui=not arguments.direct, steps=arguments.steps)
+    except KeyboardInterrupt:
+        print("\n已退出 PyBullet。")
+        return 0
     if arguments.direct:
         print(json.dumps(summary, ensure_ascii=False, sort_keys=True))
     return 0
@@ -85,4 +89,3 @@ def main(argv: Sequence[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

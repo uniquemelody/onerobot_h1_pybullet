@@ -5,6 +5,8 @@ from pathlib import Path
 
 import pytest
 
+from onerobotics_a1_pybullet import demo
+
 ROOT = Path(__file__).resolve().parents[1]
 OPEN_DEMO = ROOT / "scripts" / "open_demo.sh"
 
@@ -59,3 +61,14 @@ def test_shell_scripts_are_executable() -> None:
         assert path.is_file()
         assert os.access(path, os.X_OK), path
 
+
+def test_ctrl_c_exits_without_traceback(
+    monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+) -> None:
+    def interrupt(*args: object, **kwargs: object) -> dict[str, object]:
+        raise KeyboardInterrupt
+
+    monkeypatch.setattr(demo, "run_demo", interrupt)
+
+    assert demo.main(["right"]) == 0
+    assert "已退出" in capsys.readouterr().out
