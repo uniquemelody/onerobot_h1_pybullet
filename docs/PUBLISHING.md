@@ -8,15 +8,15 @@ PyBullet 没有 Gazebo Fuel 那样的网页资产上传表单。正确交付顺�
 
 ## 当前个人仓库目标
 
-目标网址：<https://github.com/uniquemelody/onerobot_h1-pybullet>
+目标网址：<https://github.com/uniquemelody/onerobot_h1_pybullet>
 
 本地验证通过后，在 GitHub 网页新建一个空的公开仓库
-`uniquemelody/onerobot_h1-pybullet`，不要勾选自动添加 README、许可证或
+`uniquemelody/onerobot_h1_pybullet`，不要勾选自动添加 README、许可证或
 `.gitignore`，然后执行：
 
 ```bash
 cd ~/桌面/onerobot_h1-pybullet
-git remote add personal git@github.com:uniquemelody/onerobot_h1-pybullet.git
+git remote add personal git@github.com:uniquemelody/onerobot_h1_pybullet.git
 git push -u personal main
 ```
 
@@ -46,7 +46,7 @@ examples/pybullet/gym/pybullet_data/
 
 ## 给 mentor 的简短汇报
 
-> 已完成 OneRobotics A1 右臂、左臂和双臂的 PyBullet 适配与本地验收，三个模型均可加载和运动，代码、资产及来源/许可证记录已整理到：<https://github.com/uniquemelody/onerobot_h1-pybullet>。请确认下一步是否向 `bulletphysics/bullet3` 的 `pybullet_data` 提交 PR。
+> 已完成 OneRobotics A1 右臂、左臂和双臂的 PyBullet 适配与本地验收，三个模型均可加载和运动，代码、资产及来源/许可证记录已整理到：<https://github.com/uniquemelody/onerobot_h1_pybullet>。请确认下一步是否向 `bulletphysics/bullet3` 的 `pybullet_data` 提交 PR。
 
 ## 上传行为记录模板
 
@@ -57,7 +57,6 @@ examples/pybullet/gym/pybullet_data/
 | 适配平台 | PyBullet 3.2.7 |
 | 模型 | right / left / bimanual |
 | 本地测试 | `bash scripts/validate_all.sh` |
-| 个人仓库 | `uniquemelody/onerobot_h1-pybullet` |
+| 个人仓库 | `uniquemelody/onerobot_h1_pybullet` |
 | 官方目标（待确认） | `bulletphysics/bullet3/examples/pybullet/gym/pybullet_data` |
 | 许可证 | 资产 CC BY 4.0；新增代码 BSD-3-Clause |
-

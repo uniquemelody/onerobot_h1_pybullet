@@ -18,7 +18,7 @@ def test_readme_has_beginner_commands_for_every_model() -> None:
 
 def test_publication_record_explains_personal_and_official_destinations() -> None:
     publishing = (ROOT / "docs" / "PUBLISHING.md").read_text(encoding="utf-8")
-    assert "uniquemelody/onerobot_h1-pybullet" in publishing
+    assert "uniquemelody/onerobot_h1_pybullet" in publishing
     assert "bulletphysics/bullet3" in publishing
     assert "examples/pybullet/gym/pybullet_data" in publishing
     assert "Pull Request" in publishing
