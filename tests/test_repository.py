@@ -2,7 +2,6 @@ from pathlib import Path
 
 import yaml
 
-
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_SOURCE_COMMIT = "ecf530911284ba0e559f7a24dc222fd8e60d31ed"
 
