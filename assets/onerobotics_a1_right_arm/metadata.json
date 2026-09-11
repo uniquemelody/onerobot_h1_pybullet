@@ -1,0 +1,13 @@
+{
+  "asset_license": "CC-BY-4.0",
+  "changes": [
+    "Removed the unused top-level MuJoCo compiler element for PyBullet portability.",
+    "Packaged referenced meshes in a self-contained model directory.",
+    "Physical model fields are unchanged."
+  ],
+  "display_name": "OneRobotics A1 Right Arm",
+  "model_key": "right",
+  "source_commit": "ecf530911284ba0e559f7a24dc222fd8e60d31ed",
+  "source_repository": "https://github.com/katazen/onerobot_h1",
+  "source_urdf": "source/A1_2026/a1_r.urdf"
+}
