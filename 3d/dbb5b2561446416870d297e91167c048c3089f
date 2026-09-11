@@ -1,0 +1,24 @@
+src/onerobotics_a1_pybullet/loader.py
+  s_ef7452d333de59::t_5813873c36f2be 1-96
+tests/test_loader.py
+  s_ef7452d333de59::t_b16896ed6c79c8 1-43,48-49,54-56,63-64
+  s_ef7452d333de59::t_2de128e0c012e3 44-47,50-53,57-62
+pyproject.toml
+  s_ef7452d333de59::t_ac04d8fa42209b 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3ddbb5b2561446416870d297e91167c048c3089f",
+  "prompts": {},
+  "sessions": {
+    "s_ef7452d333de59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0230d-de1f-7711-9332-d9e46b69924b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuanzi <20223801046@m.scnu.edu.cn>"
+    }
+  }
+}
