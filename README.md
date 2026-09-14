@@ -58,4 +58,4 @@ OneRobotics A1 机器人资产 © 2026 OneRobotics，采用 CC BY 4.0 许可。
 双臂源 URDF 中的零 effort/velocity 是上游占位值，演示加载器按公开的硬件参数
 提供控制力，不把这些控制参数伪装成 CAD 原始数据。
 
-发布和向 mentor 汇报的方法见 [`docs/PUBLISHING.md`](docs/PUBLISHING.md)。
+当前发布状态和上游贡献流程见 [`docs/PUBLISHING.md`](docs/PUBLISHING.md)。

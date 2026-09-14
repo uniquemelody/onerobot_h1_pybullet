@@ -63,10 +63,8 @@ PyBullet DIRECT so they work without a display.
 
 1. Add failing checks for copy-paste commands, attribution, and clean archive
    inventory.
-2. Write the zero-background quick start and mentor-facing publication record.
+2. Write the zero-background quick start and public contribution record.
 3. Run `pytest`, `ruff check`, the full validation script, and GUI validation.
 4. Review the git diff and commit the verified deliverable.
-5. Create/push the user's GitHub repository if an authenticated creation method
-   is available; otherwise provide the single required browser step and push
-   immediately after the empty repository exists.
-
+5. Publish the verified project repository and confirm that the public clone
+   and validation workflow succeeds.

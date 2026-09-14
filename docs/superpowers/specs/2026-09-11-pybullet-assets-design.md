@@ -10,16 +10,16 @@ left arm, and bimanual stand.
 
 Use a standalone `onerobot_h1-pybullet` repository. This keeps simulator
 integration separate from the upstream robot source and from the Gazebo
-deliverable. The repository can first be pushed to the user's GitHub account;
-if the mentor later requests official inclusion, the same tested asset folders
-can be proposed to `bulletphysics/bullet3` in a pull request.
+deliverable. The tested asset folders can later be proposed to
+`bulletphysics/bullet3` in a pull request if upstream inclusion is desired.
 
 Alternatives considered:
 
 1. Add PyBullet files to `onerobot_h1-gazebo`: fewer repositories, but mixes
    unrelated simulator deliverables and gives the repository a misleading name.
 2. Fork `bulletphysics/bullet3` immediately: closest to an upstream PR, but
-   unnecessarily large and premature until the mentor confirms that target.
+   unnecessarily large before the upstream scope and acceptance requirements
+   are confirmed.
 
 ## Source and licensing
 
@@ -50,7 +50,7 @@ scripts/
   open_demo.sh     # beginner launcher
 tests/             # static and PyBullet DIRECT tests
 docs/
-  PUBLISHING.md    # personal GitHub and upstream PR record
+  PUBLISHING.md    # publication status and upstream contribution guide
 ```
 
 ## Runtime behavior
@@ -78,4 +78,3 @@ Automated tests must prove that:
 
 Manual acceptance is one GUI launch per model and a saved screenshot or written
 record. External publication occurs only after local verification passes.
-
